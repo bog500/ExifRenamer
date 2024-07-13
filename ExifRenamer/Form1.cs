@@ -83,7 +83,7 @@ namespace ExifRenamer
                 ;
 
             if (!date.Equals(old))
-                Log($"Date adjusted from {old.ToString("yyyy-MM-dd HH:mm:ss")} to {old.ToString("yyyy-MM-dd HH:mm:ss")}");
+                Log($"Date adjusted from {old.ToString("yyyy-MM-dd HH:mm:ss")} to {date.ToString("yyyy-MM-dd HH:mm:ss")}");
 
             return date;
         }
